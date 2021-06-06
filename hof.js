@@ -11,15 +11,12 @@ function runProgram(input) {
                 res +=ip[i][j].toUpperCase();
             } else {
                 res +=ip[i][j];
-            }
-             
+            }            
         }
         if (res != "") {
             arr.push(res);
             arr2.push(res2);
         }
-        
-
     }
     console.log(arr.join(""));
     console.log(arr2.join("-"));
