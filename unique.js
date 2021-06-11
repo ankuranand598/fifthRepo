@@ -1,4 +1,4 @@
-var arr = ['a', 'b', 'c', 'd', 'a', 'c'];
+/*var arr = ['a', 'b', 'c', 'd', 'a', 'c'];
 var newArr = [];
 for (var i = 0; i < arr.length; i++){
     for (var j = i; j < arr.length; j++){
@@ -8,4 +8,7 @@ for (var i = 0; i < arr.length; i++){
         }
     }
 }
-console.log(newArr);
+console.log(newArr);*/
+var obj = {
+    arr:['a', 'b', 'c', 'd', 'a', 'c'],
+}
