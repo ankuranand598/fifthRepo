@@ -7,16 +7,31 @@ var marks = {
         ['Yogesh', 15]
     ],
   maximum: function () {
-    for (key in this.data) {
-      console.log(key+1);
+    var mrks = 0;
+    for (var i = 0; i < this.data.length; i++){
+      if (mrks < this.data[i][1]) {
+        mrks = this.data[i][1];
+      }
     }
+    console.log(mrks)
   },
   
   minimum: function () {
-    
+    var mrks = this.data[1][1];
+    for (var i = 0; i < this.data.length; i++){
+      if (mrks > this.data[i][1]) {
+        mrks = this.data[i][1];
+      }
+    }
+    console.log(mrks);
   },
   average: function () {
-    
+    var sum = 0;
+    for (var i = 0; i < this.data.length; i++){
+      sum += this.data[i][1];
+    }
+    var avg = sum / this.data.length;
+    console.log(avg)
   }
     
                  
@@ -26,6 +41,8 @@ var marks = {
           
            
         
+marks.average();
+marks.minimum();
 marks.maximum();
  //console.log(marks.maximum());   
    
