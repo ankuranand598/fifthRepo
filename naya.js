@@ -24,4 +24,36 @@ while ( i < ip.length-1){
     i+=2;
    
 }
- console.log(arr.join(''));
+//console.log(arr.join(''));
+ /*if(j<c-3){ //horizontal
+  var temp=' ';
+  temp = temp+ele[i][j]+ele[i][j+1]+ele[i][j+2]+ele[i][j+3];
+ console.log(temp);
+if(temp == s){
+   
+count++;
+}
+}
+ if(i<r-3){  //vertical
+  var temp1 ='';
+  temp1 = temp1+ele[i][j]+ele[i+1][j]+ele[i+2][j]+ele[i+3][j];
+if(temp1 == s){
+count++;
+}
+}
+  if(i<r-3 && j<c-3 ){  //diagonal down
+    var temp2 = '';
+    temp2 =temp2 + ele[i][j]+ele[i+1][j+1]+ele[i+2][j+2]+ele[i+3][j+3];
+if(temp2 == s){
+count++;
+}
+}
+    if(i>=3 && j<c-3 ){  //diagonal up
+      var temp3= '';
+      temp3 = temp3 +ele[i][j]+ele[i-1][j+1]+ele[i-2][j+2]+ele[i-3][j+3];
+if(temp3 ==s){
+count++;
+}
+} */
+var arr = [1, 2, 3, 4, 5];
+console.log(arr[arr.length-1]);
